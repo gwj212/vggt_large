@@ -1,7 +1,7 @@
 .hydra/
 output/
 ckpt/
-models/
+/models/
 *.pth
 *.pt
 *.ckpt

@@ -25,8 +25,6 @@ two-node, two-GPU-per-node test with mixed image sizes.
 ```text
 .
 |-- train_nogt.py                 # DDP training entry point
-|-- vggt/train_nogt.py            # Canonical training implementation
-|-- train_nogt_ddp.py             # Saved byte-identical DDP copy
 |-- vggt/                          # Modified reconstruction model
 |-- scripts/run_single_node.sh    # Single-host launcher
 |-- scripts/run_multinode.sh      # Physical multi-node launcher
@@ -38,7 +36,9 @@ two-node, two-GPU-per-node test with mixed image sizes.
 `-- requirements.txt              # Verified reconstruction dependencies
 ```
 
-The original VGGT README is preserved at `docs/README_VGGT_UPSTREAM.md`.
+The repository is intentionally limited to training, distributed launch,
+environment setup, and smoke-test files. Demo applications and example media
+are not included.
 
 ## Requirements
 

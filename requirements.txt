@@ -5,13 +5,8 @@ torchvision==0.18.1+cu121
 numpy==1.26.1
 Pillow==11.3.0
 scipy==1.15.3
-tqdm==4.70.1
 einops==0.8.1
 safetensors==0.5.3
 huggingface-hub==0.28.1
-kornia==0.8.0
-opencv-python==4.10.0.84
-roma==1.6.1
-jaxtyping==0.3.7
 lpips==0.1.4
 gsplat==1.5.3
